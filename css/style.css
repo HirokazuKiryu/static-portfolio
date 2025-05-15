@@ -70,6 +70,7 @@ img {
 
 .btn:hover {
   translate: 0px 2px;
+  opacity: 0.9;
 }
 
 /* iframe */
@@ -293,7 +294,7 @@ header .link-title:hover {
 /* QRコードのカラム落ちの修正
 ------------------------------- */
 @media (min-width: 532px) {
-  
+
   .about .align-center .btn {
     display: block;
     margin: 10px auto 30px auto;
