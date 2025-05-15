@@ -228,10 +228,23 @@ iframe {
   text-align: center;
 }
 
-.item img {
+.item-big img {
+  /* border: 3px solid red; */
   aspect-ratio: 1/1;
-  object-fit: cover;
+  object-fit: contain;
+}
+
+.item img {
+  /* border: 2px solid red; */
   border-radius: 16px;
+  transition: all 0.4s ease;
+  box-shadow: 0 0 0 transparent;
+}
+
+.item img:hover {
+  border-radius: 50%;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 20px rgba(11, 187, 221, 0.6);
 }
 
 .item p {
@@ -421,7 +434,6 @@ iframe {
   }
 
   .item img {
-    border: 1px solid rebeccapurple;
 /* 5remらしいけど幅が大きすぎるので独断で2rem */
     margin-bottom: 2rem;
     
@@ -437,7 +449,6 @@ iframe {
   }
 
   .item-big img {
-    border: #0bd 2px solid;
     height: 92.5%;
     width: 100%;
   }
