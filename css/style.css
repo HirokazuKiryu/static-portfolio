@@ -175,16 +175,17 @@ header .link-title:hover {
 }
 
 .item-big img {
-  border-radius: 16px;
   aspect-ratio: 1/1;
   object-fit: cover;
+  border-radius: 16px;
   /* border: 2px solid red; */
 }
 
 .item img {
   aspect-ratio: 1/1;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 16px;
+  box-shadow: #eee 5px 5px;
   /* border: 2px solid red; */
 }
 
