@@ -1,0 +1,23 @@
+
+#bar {
+  background-color: #0bd;
+  height: 10px;
+/* 左端に固定 */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+article {
+/* 記事の上限幅 */
+  max-width: 800px;
+/* 中央寄せ */
+  margin: auto;
+/* コンテンツ内側余白 */
+  padding: 2rem;
+  line-height: 1.8;
+}
+
+h2 {
+  margin: 2rem 0 1rem;
+}
